@@ -29,6 +29,12 @@
 		D30E306621CDD0BF0059E623 /* ConstAndVar.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConstAndVar.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E306721CDD29C0059E623 /* IntegerBounds.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IntegerBounds.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E306821CDD4250059E623 /* NumericLiteral.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NumericLiteral.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E306921CE0F550059E623 /* TypeAlias.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeAlias.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E306A21CE102F0059E623 /* Boolean.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Boolean.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E306B21CE48EF0059E623 /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E306C21CE4A020059E623 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E306D21CE50B80059E623 /* ErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E306E21CE53A60059E623 /* AssertionsAndPreconditions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AssertionsAndPreconditions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,12 @@
 				D30E306621CDD0BF0059E623 /* ConstAndVar.playground */,
 				D30E306721CDD29C0059E623 /* IntegerBounds.playground */,
 				D30E306821CDD4250059E623 /* NumericLiteral.playground */,
+				D30E306921CE0F550059E623 /* TypeAlias.playground */,
+				D30E306A21CE102F0059E623 /* Boolean.playground */,
+				D30E306B21CE48EF0059E623 /* Tuples.playground */,
+				D30E306C21CE4A020059E623 /* Optionals.playground */,
+				D30E306D21CE50B80059E623 /* ErrorHandling.playground */,
+				D30E306E21CE53A60059E623 /* AssertionsAndPreconditions.playground */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
