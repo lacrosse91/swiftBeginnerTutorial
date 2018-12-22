@@ -26,6 +26,9 @@
 		D30E305921CCB6B40059E623 /* swiftTutorialForBeginer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftTutorialForBeginer; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30E305C21CCB6B40059E623 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D30E306421CCB7500059E623 /* Print.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Print.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E306621CDD0BF0059E623 /* ConstAndVar.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConstAndVar.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E306721CDD29C0059E623 /* IntegerBounds.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IntegerBounds.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E306821CDD4250059E623 /* NumericLiteral.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NumericLiteral.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D30E306521CDD0970059E623 /* Basic */,
 				D30E306321CCB72E0059E623 /* Grammar */,
 				D30E305C21CCB6B40059E623 /* main.swift */,
 			);
@@ -70,6 +74,16 @@
 				D30E306421CCB7500059E623 /* Print.playground */,
 			);
 			path = Grammar;
+			sourceTree = "<group>";
+		};
+		D30E306521CDD0970059E623 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				D30E306621CDD0BF0059E623 /* ConstAndVar.playground */,
+				D30E306721CDD29C0059E623 /* IntegerBounds.playground */,
+				D30E306821CDD4250059E623 /* NumericLiteral.playground */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
