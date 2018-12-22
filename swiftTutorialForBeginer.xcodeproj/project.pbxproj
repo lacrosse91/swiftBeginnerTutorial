@@ -35,6 +35,7 @@
 		D30E306C21CE4A020059E623 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E306D21CE50B80059E623 /* ErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E306E21CE53A60059E623 /* AssertionsAndPreconditions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AssertionsAndPreconditions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E307121CE56970059E623 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D30E306F21CE55E30059E623 /* BasicOperators */,
 				D30E306521CDD0970059E623 /* Basic */,
 				D30E306321CCB72E0059E623 /* Grammar */,
 				D30E305C21CCB6B40059E623 /* main.swift */,
@@ -96,6 +98,14 @@
 				D30E306E21CE53A60059E623 /* AssertionsAndPreconditions.playground */,
 			);
 			path = Basic;
+			sourceTree = "<group>";
+		};
+		D30E306F21CE55E30059E623 /* BasicOperators */ = {
+			isa = PBXGroup;
+			children = (
+				D30E307121CE56970059E623 /* Operators.playground */,
+			);
+			path = BasicOperators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
