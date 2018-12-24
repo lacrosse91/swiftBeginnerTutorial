@@ -47,6 +47,8 @@
 		D30E307C21D08A6C0059E623 /* CompareString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CompareString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E307D21D08ED50059E623 /* UnicodeRepresentationOfStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UnicodeRepresentationOfStrings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E307F21D090E80059E623 /* MutabilityOfCollections.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MutabilityOfCollections.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308121D0D5AC0059E623 /* ForInLoops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForInLoops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308221D0D66D0059E623 /* WhileLoops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WhileLoops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D30E308021D0D57B0059E623 /* ControlFlow */,
 				D30E307E21D090B20059E623 /* CoollectionTypes */,
 				D30E307221CF77530059E623 /* StringAndCharacters */,
 				D30E306F21CE55E30059E623 /* BasicOperators */,
@@ -144,6 +147,15 @@
 				D30E307F21D090E80059E623 /* MutabilityOfCollections.playground */,
 			);
 			path = CoollectionTypes;
+			sourceTree = "<group>";
+		};
+		D30E308021D0D57B0059E623 /* ControlFlow */ = {
+			isa = PBXGroup;
+			children = (
+				D30E308121D0D5AC0059E623 /* ForInLoops.playground */,
+				D30E308221D0D66D0059E623 /* WhileLoops.playground */,
+			);
+			path = ControlFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
