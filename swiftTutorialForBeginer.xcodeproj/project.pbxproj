@@ -49,6 +49,8 @@
 		D30E307F21D090E80059E623 /* MutabilityOfCollections.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MutabilityOfCollections.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E308121D0D5AC0059E623 /* ForInLoops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForInLoops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E308221D0D66D0059E623 /* WhileLoops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WhileLoops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308321D133A90059E623 /* ConditionalStatements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConditionalStatements.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308421D149F90059E623 /* ControlTransferStatements .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ControlTransferStatements .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,8 @@
 			children = (
 				D30E308121D0D5AC0059E623 /* ForInLoops.playground */,
 				D30E308221D0D66D0059E623 /* WhileLoops.playground */,
+				D30E308321D133A90059E623 /* ConditionalStatements.playground */,
+				D30E308421D149F90059E623 /* ControlTransferStatements .playground */,
 			);
 			path = ControlFlow;
 			sourceTree = "<group>";
