@@ -52,6 +52,8 @@
 		D30E308321D133A90059E623 /* ConditionalStatements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConditionalStatements.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E308421D149F90059E623 /* ControlTransferStatements .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ControlTransferStatements .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E308521D1EAAE0059E623 /* EarlyExit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EarlyExit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308721D2A3DC0059E623 /* DefiningAndCallingFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DefiningAndCallingFunctions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308821D2A4710059E623 /* FunctionParametersAndReturnValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunctionParametersAndReturnValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,8 @@
 		D30E308621D1EB770059E623 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
+				D30E308721D2A3DC0059E623 /* DefiningAndCallingFunctions.playground */,
+				D30E308821D2A4710059E623 /* FunctionParametersAndReturnValues.playground */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
