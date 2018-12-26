@@ -56,6 +56,12 @@
 		D30E308821D2A4710059E623 /* FunctionParametersAndReturnValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunctionParametersAndReturnValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E308921D36D780059E623 /* FunctionArgumentLabelsAndParameterNames.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunctionArgumentLabelsAndParameterNames.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E308A21D379290059E623 /* FunctionTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunctionTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308B21D37C430059E623 /* NestedFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NestedFunctions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308D21D386CE0059E623 /* ClosureExpressions .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ClosureExpressions .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308E21D388B40059E623 /* TrailingClosures .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "TrailingClosures .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E308F21D389670059E623 /* CapturingValues .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "CapturingValues .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E309021D392250059E623 /* EscapingClosures .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "EscapingClosures .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E309121D392F50059E623 /* Autoclosures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Autoclosures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D30E308C21D386AF0059E623 /* Closures */,
 				D30E308621D1EB770059E623 /* Functions */,
 				D30E308021D0D57B0059E623 /* ControlFlow */,
 				D30E307E21D090B20059E623 /* CoollectionTypes */,
@@ -176,8 +183,21 @@
 				D30E308821D2A4710059E623 /* FunctionParametersAndReturnValues.playground */,
 				D30E308921D36D780059E623 /* FunctionArgumentLabelsAndParameterNames.playground */,
 				D30E308A21D379290059E623 /* FunctionTypes.playground */,
+				D30E308B21D37C430059E623 /* NestedFunctions.playground */,
 			);
 			path = Functions;
+			sourceTree = "<group>";
+		};
+		D30E308C21D386AF0059E623 /* Closures */ = {
+			isa = PBXGroup;
+			children = (
+				D30E308D21D386CE0059E623 /* ClosureExpressions .playground */,
+				D30E308E21D388B40059E623 /* TrailingClosures .playground */,
+				D30E308F21D389670059E623 /* CapturingValues .playground */,
+				D30E309021D392250059E623 /* EscapingClosures .playground */,
+				D30E309121D392F50059E623 /* Autoclosures.playground */,
+			);
+			path = Closures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
