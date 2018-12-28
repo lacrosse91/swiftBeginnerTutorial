@@ -73,6 +73,10 @@
 		D30E309D21D51A560059E623 /* ComputedProperties .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ComputedProperties .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E309E21D5209F0059E623 /* PropertyObservers .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "PropertyObservers .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E309F21D5521C0059E623 /* GlobalAndLocalVariables .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GlobalAndLocalVariables .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4221D6287000F496A9 /* InstanceMethods .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "InstanceMethods .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4321D62AD300F496A9 /* TypeMethods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeMethods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4621D62F3400F496A9 /* SubscriptSyntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubscriptSyntax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4721D6301700F496A9 /* SubscriptUsage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubscriptUsage.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3B28D4521D62F1D00F496A9 /* Subscripts */,
+				D3B28D4121D6285000F496A9 /* Methods */,
 				D30E309A21D5176E0059E623 /* Properties */,
 				D30E309821D4A9EC0059E623 /* StructureAndClasses */,
 				D30E309221D3CC020059E623 /* Enumerations */,
@@ -244,6 +250,24 @@
 				D30E309F21D5521C0059E623 /* GlobalAndLocalVariables .playground */,
 			);
 			path = Properties;
+			sourceTree = "<group>";
+		};
+		D3B28D4121D6285000F496A9 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D4221D6287000F496A9 /* InstanceMethods .playground */,
+				D3B28D4321D62AD300F496A9 /* TypeMethods.playground */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		D3B28D4521D62F1D00F496A9 /* Subscripts */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D4621D62F3400F496A9 /* SubscriptSyntax.playground */,
+				D3B28D4721D6301700F496A9 /* SubscriptUsage.playground */,
+			);
+			path = Subscripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
