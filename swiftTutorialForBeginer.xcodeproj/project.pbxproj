@@ -68,6 +68,11 @@
 		D30E309621D3CEFC0059E623 /* RawValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RawValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E309721D49D8A0059E623 /* RecursiveEnumerations .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RecursiveEnumerations .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E309921D4AA1A0059E623 /* ComparingStructuresAndClasses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComparingStructuresAndClasses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E309B21D518400059E623 /* StoredProperties .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "StoredProperties .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E309C21D518C80059E623 /* LazyStoredProperties .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "LazyStoredProperties .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E309D21D51A560059E623 /* ComputedProperties .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ComputedProperties .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E309E21D5209F0059E623 /* PropertyObservers .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "PropertyObservers .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D30E309F21D5521C0059E623 /* GlobalAndLocalVariables .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GlobalAndLocalVariables .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +105,7 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D30E309A21D5176E0059E623 /* Properties */,
 				D30E309821D4A9EC0059E623 /* StructureAndClasses */,
 				D30E309221D3CC020059E623 /* Enumerations */,
 				D30E308C21D386AF0059E623 /* Closures */,
@@ -226,6 +232,18 @@
 				D30E309921D4AA1A0059E623 /* ComparingStructuresAndClasses.playground */,
 			);
 			path = StructureAndClasses;
+			sourceTree = "<group>";
+		};
+		D30E309A21D5176E0059E623 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				D30E309B21D518400059E623 /* StoredProperties .playground */,
+				D30E309C21D518C80059E623 /* LazyStoredProperties .playground */,
+				D30E309D21D51A560059E623 /* ComputedProperties .playground */,
+				D30E309E21D5209F0059E623 /* PropertyObservers .playground */,
+				D30E309F21D5521C0059E623 /* GlobalAndLocalVariables .playground */,
+			);
+			path = Properties;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
