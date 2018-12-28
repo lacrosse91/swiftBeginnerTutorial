@@ -77,6 +77,12 @@
 		D3B28D4321D62AD300F496A9 /* TypeMethods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeMethods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4621D62F3400F496A9 /* SubscriptSyntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubscriptSyntax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4721D6301700F496A9 /* SubscriptUsage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubscriptUsage.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4921D63A3D00F496A9 /* DefiningABaseClass .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DefiningABaseClass .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4B21D63C2600F496A9 /* SettingInitialValuesForStoredProperties .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "SettingInitialValuesForStoredProperties .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4C21D63C8A00F496A9 /* CustomizingInitialization .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "CustomizingInitialization .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4D21D63EBA00F496A9 /* DefaultInitializers .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DefaultInitializers .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4E21D640E400F496A9 /* InitializerDelegationForValueTypes .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "InitializerDelegationForValueTypes .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D4F21D6432E00F496A9 /* ClassInheritanceAndInitialization .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ClassInheritanceAndInitialization .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,8 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3B28D4A21D63BC600F496A9 /* Initialization */,
+				D3B28D4821D638F900F496A9 /* Inheritance */,
 				D3B28D4521D62F1D00F496A9 /* Subscripts */,
 				D3B28D4121D6285000F496A9 /* Methods */,
 				D30E309A21D5176E0059E623 /* Properties */,
@@ -268,6 +276,26 @@
 				D3B28D4721D6301700F496A9 /* SubscriptUsage.playground */,
 			);
 			path = Subscripts;
+			sourceTree = "<group>";
+		};
+		D3B28D4821D638F900F496A9 /* Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D4921D63A3D00F496A9 /* DefiningABaseClass .playground */,
+			);
+			path = Inheritance;
+			sourceTree = "<group>";
+		};
+		D3B28D4A21D63BC600F496A9 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D4B21D63C2600F496A9 /* SettingInitialValuesForStoredProperties .playground */,
+				D3B28D4C21D63C8A00F496A9 /* CustomizingInitialization .playground */,
+				D3B28D4D21D63EBA00F496A9 /* DefaultInitializers .playground */,
+				D3B28D4E21D640E400F496A9 /* InitializerDelegationForValueTypes .playground */,
+				D3B28D4F21D6432E00F496A9 /* ClassInheritanceAndInitialization .playground */,
+			);
+			path = Initialization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
