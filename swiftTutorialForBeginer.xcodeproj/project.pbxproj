@@ -83,6 +83,7 @@
 		D3B28D4D21D63EBA00F496A9 /* DefaultInitializers .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DefaultInitializers .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4E21D640E400F496A9 /* InitializerDelegationForValueTypes .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "InitializerDelegationForValueTypes .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4F21D6432E00F496A9 /* ClassInheritanceAndInitialization .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ClassInheritanceAndInitialization .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D5021D9580600F496A9 /* FailableInitializers .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "FailableInitializers .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +295,7 @@
 				D3B28D4D21D63EBA00F496A9 /* DefaultInitializers .playground */,
 				D3B28D4E21D640E400F496A9 /* InitializerDelegationForValueTypes .playground */,
 				D3B28D4F21D6432E00F496A9 /* ClassInheritanceAndInitialization .playground */,
+				D3B28D5021D9580600F496A9 /* FailableInitializers .playground */,
 			);
 			path = Initialization;
 			sourceTree = "<group>";
