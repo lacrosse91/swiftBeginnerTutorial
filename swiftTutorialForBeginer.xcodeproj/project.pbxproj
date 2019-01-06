@@ -84,6 +84,9 @@
 		D3B28D4E21D640E400F496A9 /* InitializerDelegationForValueTypes .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "InitializerDelegationForValueTypes .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4F21D6432E00F496A9 /* ClassInheritanceAndInitialization .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ClassInheritanceAndInitialization .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D5021D9580600F496A9 /* FailableInitializers .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "FailableInitializers .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D5321DFA17100F496A9 /* HowDeinitializationWorks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HowDeinitializationWorks.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D5521DFA2D400F496A9 /* OptionalChainingAsAnAlternativeToForced Unwrapping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "OptionalChainingAsAnAlternativeToForced Unwrapping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D5621DFA38400F496A9 /* DefiningModelClassesForOptionalChaining .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DefiningModelClassesForOptionalChaining .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3B28D5421DFA2A900F496A9 /* OptionalChaining */,
+				D3B28D5221DFA13F00F496A9 /* Deinitialization */,
 				D3B28D4A21D63BC600F496A9 /* Initialization */,
 				D3B28D4821D638F900F496A9 /* Inheritance */,
 				D3B28D4521D62F1D00F496A9 /* Subscripts */,
@@ -298,6 +303,23 @@
 				D3B28D5021D9580600F496A9 /* FailableInitializers .playground */,
 			);
 			path = Initialization;
+			sourceTree = "<group>";
+		};
+		D3B28D5221DFA13F00F496A9 /* Deinitialization */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D5321DFA17100F496A9 /* HowDeinitializationWorks.playground */,
+			);
+			path = Deinitialization;
+			sourceTree = "<group>";
+		};
+		D3B28D5421DFA2A900F496A9 /* OptionalChaining */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D5521DFA2D400F496A9 /* OptionalChainingAsAnAlternativeToForced Unwrapping.playground */,
+				D3B28D5621DFA38400F496A9 /* DefiningModelClassesForOptionalChaining .playground */,
+			);
+			path = OptionalChaining;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
