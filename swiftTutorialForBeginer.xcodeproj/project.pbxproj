@@ -87,6 +87,12 @@
 		D3B28D5321DFA17100F496A9 /* HowDeinitializationWorks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HowDeinitializationWorks.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D5521DFA2D400F496A9 /* OptionalChainingAsAnAlternativeToForced Unwrapping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "OptionalChainingAsAnAlternativeToForced Unwrapping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D5621DFA38400F496A9 /* DefiningModelClassesForOptionalChaining .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DefiningModelClassesForOptionalChaining .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D5821E1FDD700F496A9 /* RepresentingAndThrowingErrors .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RepresentingAndThrowingErrors .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D5A21E21CF700F496A9 /* DefiningAClassHierarchyForTypeCasting .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DefiningAClassHierarchyForTypeCasting .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D5B21E22AF000F496A9 /* TypeCastingForAnyAndAnyObject .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "TypeCastingForAnyAndAnyObject .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D5D21E22BEE00F496A9 /* NestedTypesInAction .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "NestedTypesInAction .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D5F21E22EA100F496A9 /* Extension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extension.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6121E243A800F496A9 /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,11 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3B28D6021E2323600F496A9 /* Protocols */,
+				D3B28D5E21E22E8A00F496A9 /* Extensions */,
+				D3B28D5C21E22BD500F496A9 /* NestedTypes  */,
+				D3B28D5921E2087400F496A9 /* TypeCasting */,
+				D3B28D5721E1FDB200F496A9 /* ErrorHandling  */,
 				D3B28D5421DFA2A900F496A9 /* OptionalChaining */,
 				D3B28D5221DFA13F00F496A9 /* Deinitialization */,
 				D3B28D4A21D63BC600F496A9 /* Initialization */,
@@ -320,6 +331,47 @@
 				D3B28D5621DFA38400F496A9 /* DefiningModelClassesForOptionalChaining .playground */,
 			);
 			path = OptionalChaining;
+			sourceTree = "<group>";
+		};
+		D3B28D5721E1FDB200F496A9 /* ErrorHandling  */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D5821E1FDD700F496A9 /* RepresentingAndThrowingErrors .playground */,
+			);
+			path = "ErrorHandling ";
+			sourceTree = "<group>";
+		};
+		D3B28D5921E2087400F496A9 /* TypeCasting */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D5A21E21CF700F496A9 /* DefiningAClassHierarchyForTypeCasting .playground */,
+				D3B28D5B21E22AF000F496A9 /* TypeCastingForAnyAndAnyObject .playground */,
+			);
+			path = TypeCasting;
+			sourceTree = "<group>";
+		};
+		D3B28D5C21E22BD500F496A9 /* NestedTypes  */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D5D21E22BEE00F496A9 /* NestedTypesInAction .playground */,
+			);
+			path = "NestedTypes ";
+			sourceTree = "<group>";
+		};
+		D3B28D5E21E22E8A00F496A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D5F21E22EA100F496A9 /* Extension.playground */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D3B28D6021E2323600F496A9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D6121E243A800F496A9 /* Protocol.playground */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
