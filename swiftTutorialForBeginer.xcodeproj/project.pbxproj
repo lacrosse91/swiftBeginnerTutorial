@@ -93,6 +93,13 @@
 		D3B28D5D21E22BEE00F496A9 /* NestedTypesInAction .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "NestedTypesInAction .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D5F21E22EA100F496A9 /* Extension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extension.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D6121E243A800F496A9 /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6321E3A80900F496A9 /* TheProblemThatGenericsSolve .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "TheProblemThatGenericsSolve .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6421E41B5800F496A9 /* GenericTypes .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GenericTypes .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6521E6F6A300F496A9 /* TypeConstraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeConstraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6621E6F7F800F496A9 /* AssociatedTypes .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AssociatedTypes .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6821EB538C00F496A9 /* HowARCWorks .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "HowARCWorks .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6921EB548C00F496A9 /* Strong ReferenceCyclesBetweenClassInstances .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Strong ReferenceCyclesBetweenClassInstances .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6A21EB55FE00F496A9 /* ResolvingStrongReferenceCyclesBetweenClassInstances.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ResolvingStrongReferenceCyclesBetweenClassInstances.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +132,8 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3B28D6721EB535D00F496A9 /* AutomaticReferenceCounting  */,
+				D3B28D6221E3A7F200F496A9 /* Generics */,
 				D3B28D6021E2323600F496A9 /* Protocols */,
 				D3B28D5E21E22E8A00F496A9 /* Extensions */,
 				D3B28D5C21E22BD500F496A9 /* NestedTypes  */,
@@ -372,6 +381,27 @@
 				D3B28D6121E243A800F496A9 /* Protocol.playground */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D3B28D6221E3A7F200F496A9 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D6321E3A80900F496A9 /* TheProblemThatGenericsSolve .playground */,
+				D3B28D6421E41B5800F496A9 /* GenericTypes .playground */,
+				D3B28D6521E6F6A300F496A9 /* TypeConstraints.playground */,
+				D3B28D6621E6F7F800F496A9 /* AssociatedTypes .playground */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		D3B28D6721EB535D00F496A9 /* AutomaticReferenceCounting  */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D6821EB538C00F496A9 /* HowARCWorks .playground */,
+				D3B28D6921EB548C00F496A9 /* Strong ReferenceCyclesBetweenClassInstances .playground */,
+				D3B28D6A21EB55FE00F496A9 /* ResolvingStrongReferenceCyclesBetweenClassInstances.playground */,
+			);
+			path = "AutomaticReferenceCounting ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
