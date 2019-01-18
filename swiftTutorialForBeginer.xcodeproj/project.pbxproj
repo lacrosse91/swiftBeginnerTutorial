@@ -100,6 +100,14 @@
 		D3B28D6821EB538C00F496A9 /* HowARCWorks .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "HowARCWorks .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D6921EB548C00F496A9 /* Strong ReferenceCyclesBetweenClassInstances .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Strong ReferenceCyclesBetweenClassInstances .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D6A21EB55FE00F496A9 /* ResolvingStrongReferenceCyclesBetweenClassInstances.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ResolvingStrongReferenceCyclesBetweenClassInstances.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6B21F0A2ED00F496A9 /* UnownedReferencesAndImplicitlyUnwrappedOptionalProperties .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "UnownedReferencesAndImplicitlyUnwrappedOptionalProperties .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6C21F0A3CA00F496A9 /* StrongReferenceCyclesForClosures .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "StrongReferenceCyclesForClosures .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6D21F0A52400F496A9 /* ResolvingStrongReferenceCyclesForClosures .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ResolvingStrongReferenceCyclesForClosures .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D6F21F0A5F200F496A9 /* UnderstandingConflictingAccessToMemory .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "UnderstandingConflictingAccessToMemory .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D7021F0AD3D00F496A9 /* ConflictingAccessToSelfInMethods .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ConflictingAccessToSelfInMethods .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D7221F171DF00F496A9 /* ModulesAndSourceFiles .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ModulesAndSourceFiles .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D7321F1725B00F496A9 /* AccessControlSyntax .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AccessControlSyntax .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3B28D7521F1736300F496A9 /* AdvancedOperators .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AdvancedOperators .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,9 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3B28D7421F1731600F496A9 /* AdvancedOperators  */,
+				D3B28D7121F171AC00F496A9 /* AccessControl */,
+				D3B28D6E21F0A5CE00F496A9 /* MemorySafety  */,
 				D3B28D6721EB535D00F496A9 /* AutomaticReferenceCounting  */,
 				D3B28D6221E3A7F200F496A9 /* Generics */,
 				D3B28D6021E2323600F496A9 /* Protocols */,
@@ -400,8 +411,37 @@
 				D3B28D6821EB538C00F496A9 /* HowARCWorks .playground */,
 				D3B28D6921EB548C00F496A9 /* Strong ReferenceCyclesBetweenClassInstances .playground */,
 				D3B28D6A21EB55FE00F496A9 /* ResolvingStrongReferenceCyclesBetweenClassInstances.playground */,
+				D3B28D6B21F0A2ED00F496A9 /* UnownedReferencesAndImplicitlyUnwrappedOptionalProperties .playground */,
+				D3B28D6C21F0A3CA00F496A9 /* StrongReferenceCyclesForClosures .playground */,
+				D3B28D6D21F0A52400F496A9 /* ResolvingStrongReferenceCyclesForClosures .playground */,
 			);
 			path = "AutomaticReferenceCounting ";
+			sourceTree = "<group>";
+		};
+		D3B28D6E21F0A5CE00F496A9 /* MemorySafety  */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D6F21F0A5F200F496A9 /* UnderstandingConflictingAccessToMemory .playground */,
+				D3B28D7021F0AD3D00F496A9 /* ConflictingAccessToSelfInMethods .playground */,
+			);
+			path = "MemorySafety ";
+			sourceTree = "<group>";
+		};
+		D3B28D7121F171AC00F496A9 /* AccessControl */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D7221F171DF00F496A9 /* ModulesAndSourceFiles .playground */,
+				D3B28D7321F1725B00F496A9 /* AccessControlSyntax .playground */,
+			);
+			path = AccessControl;
+			sourceTree = "<group>";
+		};
+		D3B28D7421F1731600F496A9 /* AdvancedOperators  */ = {
+			isa = PBXGroup;
+			children = (
+				D3B28D7521F1736300F496A9 /* AdvancedOperators .playground */,
+			);
+			path = "AdvancedOperators ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
