@@ -16,4 +16,11 @@ print(type(of: bb)) //String
 print(type(of: aa)) //newString
 
 
+typealias myInt = Int
+
+let sampleInt: myInt = 0
+
+print(sampleInt)
+print(type(of: sampleInt))
+
 

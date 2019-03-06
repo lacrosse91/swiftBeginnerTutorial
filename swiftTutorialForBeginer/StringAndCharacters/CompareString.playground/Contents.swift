@@ -63,3 +63,19 @@ for scene in romeoAndJuliet {
 }
 print("\(mansionCount) mansion scenes; \(cellCount) cell scenes")
 // Prints "6 mansion scenes; 2 cell scenes"
+
+let melos = "メロスは激怒した"
+
+if melos.hasPrefix("メロス") {
+    print("含まれる")
+} else {
+    print("含まれない")
+}
+//含まれる
+
+if melos.hasSuffix("激怒しない") {
+    print("含まれる")
+} else {
+    print("含まれない")
+}
+//含まれない

@@ -7,8 +7,8 @@ greeting[greeting.index(before: greeting.endIndex)]
 // !
 greeting[greeting.index(after: greeting.startIndex)]
 // u
-let index = greeting.index(greeting.startIndex, offsetBy: 7)
-greeting[index]
+//let index = greeting.index(greeting.startIndex, offsetBy: 7)
+//greeting[index]
 // a
 
 //greeting[greeting.endIndex] // Error
@@ -33,5 +33,24 @@ welcome.removeSubrange(range)
 // welcome now equals "hello"
 
 
+let sample = "こんにちは"
+
+sample[greeting.startIndex]
+//こ
+//sample[0]
+////エラー
+
+sample[sample.index(before: sample.endIndex)]
+//は
+
+//greeting[greeting.index(before: greeting.endIndex)]
+
+let index = sample.index(sample.startIndex, offsetBy: 2)
+
+sample[index]
+//に
+for index in sample.indices {
+    print(sample[index])
+}
 
 

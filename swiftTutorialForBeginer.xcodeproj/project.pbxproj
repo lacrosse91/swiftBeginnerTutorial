@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D30E305D21CCB6B40059E623 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30E305C21CCB6B40059E623 /* main.swift */; };
+		D3C5B068222931AD009753E7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5B067222931AD009753E7 /* Model.swift */; };
+		D3C5B06A222931F4009753E7 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5B069222931F4009753E7 /* ModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +75,8 @@
 		D30E309D21D51A560059E623 /* ComputedProperties .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ComputedProperties .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E309E21D5209F0059E623 /* PropertyObservers .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "PropertyObservers .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D30E309F21D5521C0059E623 /* GlobalAndLocalVariables .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GlobalAndLocalVariables .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D39A8008222DBFB000FC5A0B /* Blog.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Blog.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3A14E26222FA5EE00555FD5 /* Rational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4221D6287000F496A9 /* InstanceMethods .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "InstanceMethods .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4321D62AD300F496A9 /* TypeMethods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeMethods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4621D62F3400F496A9 /* SubscriptSyntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubscriptSyntax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -108,6 +112,9 @@
 		D3B28D7221F171DF00F496A9 /* ModulesAndSourceFiles .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ModulesAndSourceFiles .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D7321F1725B00F496A9 /* AccessControlSyntax .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AccessControlSyntax .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D7521F1736300F496A9 /* AdvancedOperators .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AdvancedOperators .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3C5B067222931AD009753E7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D3C5B069222931F4009753E7 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		D3CE7591220F9E2A00643817 /* Codable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Codable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +147,8 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3A14E25222FA5CE00555FD5 /* Rational */,
+				D3C5B06622293183009753E7 /* Test */,
 				D3B28D7421F1731600F496A9 /* AdvancedOperators  */,
 				D3B28D7121F171AC00F496A9 /* AccessControl */,
 				D3B28D6E21F0A5CE00F496A9 /* MemorySafety  */,
@@ -281,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				D30E309921D4AA1A0059E623 /* ComparingStructuresAndClasses.playground */,
+				D3CE7591220F9E2A00643817 /* Codable.playground */,
 			);
 			path = StructureAndClasses;
 			sourceTree = "<group>";
@@ -295,6 +305,14 @@
 				D30E309F21D5521C0059E623 /* GlobalAndLocalVariables .playground */,
 			);
 			path = Properties;
+			sourceTree = "<group>";
+		};
+		D3A14E25222FA5CE00555FD5 /* Rational */ = {
+			isa = PBXGroup;
+			children = (
+				D3A14E26222FA5EE00555FD5 /* Rational.playground */,
+			);
+			path = Rational;
 			sourceTree = "<group>";
 		};
 		D3B28D4121D6285000F496A9 /* Methods */ = {
@@ -382,6 +400,7 @@
 			isa = PBXGroup;
 			children = (
 				D3B28D5F21E22EA100F496A9 /* Extension.playground */,
+				D39A8008222DBFB000FC5A0B /* Blog.playground */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -444,6 +463,15 @@
 			path = "AdvancedOperators ";
 			sourceTree = "<group>";
 		};
+		D3C5B06622293183009753E7 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				D3C5B067222931AD009753E7 /* Model.swift */,
+				D3C5B069222931F4009753E7 /* ModelTests.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -501,7 +529,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C5B06A222931F4009753E7 /* ModelTests.swift in Sources */,
 				D30E305D21CCB6B40059E623 /* main.swift in Sources */,
+				D3C5B068222931AD009753E7 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

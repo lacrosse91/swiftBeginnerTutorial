@@ -39,3 +39,4 @@ var anotherString = "world"
 swapTwoValues(&someString, &anotherString)
 // someString is now "world", and anotherString is now "hello"
 
+print("チョタン")

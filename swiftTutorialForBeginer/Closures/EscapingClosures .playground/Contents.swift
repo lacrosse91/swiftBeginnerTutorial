@@ -11,7 +11,10 @@ func someFunctionWithNonescapingClosure(closure: () -> Void) {
 class SomeClass {
     var x = 10
     func doSomething() {
-        someFunctionWithEscapingClosure { self.x = 100 }
+        someFunctionWithEscapingClosure {
+            self.x = 100
+            print("通った")
+        }
         print(self.x)// x = 10
         someFunctionWithNonescapingClosure { x = 200 }
     }
