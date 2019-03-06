@@ -6,6 +6,7 @@ class Rational {
     let numerator: Int
     let denominator: Int
     init(_ num: Int, _ denom: Int) {
+        
         self.numerator = num
         self.denominator = denom
     }
