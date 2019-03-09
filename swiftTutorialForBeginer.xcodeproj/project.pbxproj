@@ -79,6 +79,7 @@
 		D3A14E26222FA5EE00555FD5 /* Rational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3A14E28222FAA9300555FD5 /* NewtonMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NewtonMethod.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3A14E29222FAC2E00555FD5 /* FindRoot.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindRoot.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3A14E2C22328B7500555FD5 /* LetVar.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LetVar.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4221D6287000F496A9 /* InstanceMethods .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "InstanceMethods .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4321D62AD300F496A9 /* TypeMethods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeMethods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3B28D4621D62F3400F496A9 /* SubscriptSyntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubscriptSyntax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -149,6 +150,7 @@
 		D30E305B21CCB6B40059E623 /* swiftTutorialForBeginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3A14E2A223285D300555FD5 /* Blog */,
 				D3A14E27222FA86F00555FD5 /* MIT */,
 				D3A14E25222FA5CE00555FD5 /* Rational */,
 				D3C5B06622293183009753E7 /* Test */,
@@ -325,6 +327,22 @@
 				D3A14E29222FAC2E00555FD5 /* FindRoot.playground */,
 			);
 			path = MIT;
+			sourceTree = "<group>";
+		};
+		D3A14E2A223285D300555FD5 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				D3A14E2B223285E100555FD5 /* 1st */,
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
+		D3A14E2B223285E100555FD5 /* 1st */ = {
+			isa = PBXGroup;
+			children = (
+				D3A14E2C22328B7500555FD5 /* LetVar.playground */,
+			);
+			path = 1st;
 			sourceTree = "<group>";
 		};
 		D3B28D4121D6285000F496A9 /* Methods */ = {

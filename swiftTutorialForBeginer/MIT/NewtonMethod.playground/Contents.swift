@@ -1,7 +1,5 @@
-import Cocoa
 
-var str = "Hello, playground"
-
+import Foundation
 let epsilon: Double = 0.001
 let k: Double = 24.0
 
