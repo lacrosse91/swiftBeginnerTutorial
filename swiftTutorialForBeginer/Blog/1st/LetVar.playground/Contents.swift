@@ -1,12 +1,13 @@
 import UIKit
+import Foundation
 
 var str = "Hello, playground"
 
-var kawauso: String = "カワウソ"
+//var kawauso: String = "カワウソ"
+//
+//var otter = "カワウソ"
 
-var otter = "カワウソ"
-
-type(of: otter)//Strig.Type
+//type(of: otter)//Strig.Type
 
 var dog = "dog"
 
@@ -55,3 +56,59 @@ let a: Double = Double(sampleInt)
 let sampleFloat: Float = 1.0
 let b: Int = Int(sampleFloat)
 //1
+
+1 == 0//false
+1 != 0//true
+1 < 0//false
+1 <= 0//false
+1 > 0//true
+1 >= 0//true
+
+log(2.7)
+
+let sampleString: String = "Hello, \"kawauso\""
+
+//let anotherString: String = 'hello' エラー
+
+
+//let s: String = "Hello \nkawauso"
+//print(s)
+
+let english: Int = 80
+
+let score: String = "英語の得点は\(english)"
+
+////エラー
+//let story: String = "祇園精舎の鐘の声、
+//所業無常の響あり"
+let story: String = """
+祇園精舎の鐘の声、
+所業無常の響あり
+"""
+
+let kawauso: String = "カワウソ"
+let firstIndex: String.Index = kawauso.startIndex
+
+
+let thirdIndex: String.Index = kawauso.index(kawauso.startIndex, offsetBy: 2)
+
+let char: Character = kawauso[thirdIndex]
+
+let i: Int = 100
+let intToString: String = String(i)
+
+let s: String = "100"
+let stringToInt: Int? = Int(s)
+
+let hello: String = "hello"
+let helloToInt: Int? = Int(hello)
+
+let animal: String = "animal"
+
+var perfect: String = "perfect"
+var human: String = "human"
+let perfectHuman: String = perfect+human
+
+human.append("n")
+
+perfect.append(human)

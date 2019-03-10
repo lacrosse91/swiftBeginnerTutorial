@@ -36,3 +36,14 @@ let originRect = Rect(origin: Point(x: 2.0, y: 2.0),
 let centerRect = Rect(center: Point(x: 4.0, y: 4.0),
                       size: Size(width: 3.0, height: 3.0))
 // centerRect's origin is (2.5, 2.5) and its size is (3.0, 3.0)
+
+1 + 1 //足し算
+
+4 - 2 //引き算
+
+2 * 2 //掛け算
+
+6 / 2 //割り算
+
+7 % 3//除算 あまりを求める
+
