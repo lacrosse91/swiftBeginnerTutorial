@@ -112,3 +112,40 @@ let perfectHuman: String = perfect+human
 human.append("n")
 
 perfect.append(human)
+
+//let intArray: [Int] = [1, 2, 3]
+//
+//intArray[0]
+////1
+//intArray[2]
+////2
+
+//var array: [[Int]] = [[1, 0], [0, 1]]
+
+var intArray: [Int] = [1, 2, 3, 4]
+intArray.insert(10, at: 2)
+print(intArray)
+
+let array1: [Int] = [1, 2, 3]
+let array2: [Int] = [4, 5, 6]
+let newArray: [Int] = array1 + array2
+
+//let dict: [String: Int] = ["a": 1, "b": 2]
+
+//let dict: [String: [String: Int]] = ["a": ["a": 1], "b": ["b": 2]]
+
+//let value = dict["a"]
+//1
+
+var dict: [String: Int] = ["a": 1, "b": 2, "c": 3]
+
+//更新
+dict["a"] = 10
+
+//追加
+dict["d"] = 4
+
+//削除
+dict["a"] = nil
+
+dict
