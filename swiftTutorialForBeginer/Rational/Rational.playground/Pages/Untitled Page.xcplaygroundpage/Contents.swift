@@ -30,9 +30,9 @@ class Rational {
 
 var half = Rational(1, 2)
 
-half!.denominator
+half?.denominator
 
-half!.toString()
+half?.toString()
 
 var zero = Rational(3,0)
 
