@@ -79,7 +79,9 @@
 		D30E309F21D5521C0059E623 /* GlobalAndLocalVariables .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GlobalAndLocalVariables .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D35CB93A2236C5A20049A4F0 /* SwiftTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTour.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D35CB93B2237E9B30049A4F0 /* If.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = If.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D36A96C8224E208100719853 /* MyStruct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyStruct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D39A8008222DBFB000FC5A0B /* Blog.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Blog.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D39C73F6224B68C000606237 /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3A14E26222FA5EE00555FD5 /* Rational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3A14E28222FAA9300555FD5 /* NewtonMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NewtonMethod.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3A14E29222FAC2E00555FD5 /* FindRoot.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindRoot.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -351,6 +353,8 @@
 				D35CB93B2237E9B30049A4F0 /* If.playground */,
 				D3B3A6962238C02B0053CC2B /* Optional.playground */,
 				D302C0512243DD0A00FE07CD /* Func.playground */,
+				D39C73F6224B68C000606237 /* Protocol.playground */,
+				D36A96C8224E208100719853 /* MyStruct.playground */,
 			);
 			path = 1st;
 			sourceTree = "<group>";
