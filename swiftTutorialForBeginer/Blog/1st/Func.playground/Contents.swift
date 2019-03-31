@@ -101,3 +101,86 @@ let array = ["a", "b", "c", "d"]
 //}
 array.count
 
+
+let someClosure: () -> String
+do {
+    let str = "str"
+    someClosure = {
+        return str
+    }
+}
+
+someClosure()
+//str
+//someClosureというクロージャにより、スコープ内にアクセスできる
+
+let increment: () -> Int
+
+do {
+    var count = 0
+    increment = {
+        count += 1
+        return count
+    }
+}
+
+increment()
+//1
+increment()
+//2
+
+//var queue: [() -> Void] = [{ print("最初からあるよ") }]
+//
+//func someFunction(_ operation: @escaping () -> Void) {
+//    queue.append(operation)
+//}
+//
+//someFunction {
+//    print("実行されました")
+//}
+//
+//someFunction {
+//    print("done")
+//}
+//
+//queue.forEach{ $0() }
+
+
+func and(_ lhs: Bool, _ rhs: @autoclosure () -> Bool) -> Bool {
+    if lhs {
+        let rhs = rhs()
+        if rhs {
+            return true
+        }
+    }
+    return false
+}
+
+
+func lhs() -> Bool {
+    print("lhs")
+    return false
+}
+
+func rhs() -> Bool {
+    print("rhs")
+    return true
+}
+
+and(lhs(), rhs())//false
+
+
+func myFunc(_ str: String, _ handler: (String) -> Void) -> Void{
+    handler(str)
+}
+
+var myHandler: (String) -> Void = { print($0) }
+
+myFunc("hello", myHandler)
+
+myFunc("kawauso", { str in print(str)} )
+
+//トレイリングクロージャー
+
+myFunc("Swift"){ str in print(str) }
+
