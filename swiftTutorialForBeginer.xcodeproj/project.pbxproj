@@ -81,6 +81,8 @@
 		D35CB93B2237E9B30049A4F0 /* If.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = If.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D36A96C8224E208100719853 /* MyStruct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyStruct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D36A96C9224EC50500719853 /* Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D36A96D0225497E600719853 /* Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Class.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D36A96D12256CC6D00719853 /* Error.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Error.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D39A8008222DBFB000FC5A0B /* Blog.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Blog.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D39C73F6224B68C000606237 /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D3A14E26222FA5EE00555FD5 /* Rational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -357,6 +359,8 @@
 				D39C73F6224B68C000606237 /* Protocol.playground */,
 				D36A96C8224E208100719853 /* MyStruct.playground */,
 				D36A96C9224EC50500719853 /* Generics.playground */,
+				D36A96D0225497E600719853 /* Class.playground */,
+				D36A96D12256CC6D00719853 /* Error.playground */,
 			);
 			path = 1st;
 			sourceTree = "<group>";

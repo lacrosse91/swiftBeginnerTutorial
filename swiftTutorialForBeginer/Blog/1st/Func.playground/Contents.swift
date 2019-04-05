@@ -170,17 +170,29 @@ func rhs() -> Bool {
 and(lhs(), rhs())//false
 
 
-func myFunc(_ str: String, _ handler: (String) -> Void) -> Void{
-    handler(str)
+//func myFunc(_ str: String, _ handler: (String) -> Void) -> Void{
+//    handler(str)
+//}
+//
+//var myHandler: (String) -> Void = { print($0) }
+//
+//myFunc("hello", myHandler)
+//
+//myFunc("kawauso", { str in print(str)} )
+//
+////トレイリングクロージャー
+//
+//myFunc("Swift"){ str in print(str) }
+
+
+
+func myFunc(_ handler: (String) -> Void) {
+    handler("iOS")
 }
 
-var myHandler: (String) -> Void = { print($0) }
+myFunc { str in print(str)}
+//iOS
 
-myFunc("hello", myHandler)
 
-myFunc("kawauso", { str in print(str)} )
-
-//トレイリングクロージャー
-
-myFunc("Swift"){ str in print(str) }
-
+var aa = {() -> Void in print("aa")}
+var bb = {() -> Void in print("bb")}()
